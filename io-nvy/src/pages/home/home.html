@@ -7,8 +7,21 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-list>
+    <ion-item>
+      <label fixed>Sum of Numbers</label>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="sum"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button block (click)="getAnswer()">Get Answer</button>
+    </ion-item>
+    <ion-item>
+      <label fixed>Answer</label>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="answer"></ion-input>
+    </ion-item>
+  </ion-list>
 </ion-content>
