@@ -1,6 +1,6 @@
+// A Hello World! program in C#.
 using System;
-
-namespace capquest
+namespace capcode
 {
     public class Code
     {
